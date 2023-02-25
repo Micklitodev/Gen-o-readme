@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const licenses = require('./utils/generateMarkdown')
 
 function genReadme({
   title,
@@ -59,10 +60,7 @@ function genReadme({
   ${usage}
   
   <a name="license"></a>
-  
-  ## License
-  
-  ${license}
+  ${licenses(license)}
   
   <a name="contributions"></a>
   
