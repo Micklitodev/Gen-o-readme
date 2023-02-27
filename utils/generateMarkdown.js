@@ -174,7 +174,9 @@ function generateMarkdown(data) {
   const section = renderLicenseSection(data)
 
   return `
-  ## ${data} ${badge}
+  ## License
+  
+  ${data} ${badge} 
 
    To see full details visit ${link}
 

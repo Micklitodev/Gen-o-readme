@@ -28,9 +28,9 @@ function genReadme({
   ## Table of contents
   
   - [ Link ](#link)
-  - [ ScreenShot ](#ScreenShot)
-  - [ Installation ](#Installation)
-  - [ Usage ](#Usage)
+  - [ Screenshot ](#screenshot)
+  - [ Installation ](#installation)
+  - [ Usage ](#usage)
   - [ Contributions ](#contributions)
   - [ Tests ](#tests)
   - [ Questions ](#questions)
@@ -43,7 +43,7 @@ function genReadme({
   
 
 
-  ## ScreenShot
+  ## Screenshot
   
   ![image](${img})
   
@@ -124,7 +124,7 @@ inquirer
     },
     {
       type: "input",
-      message: "How do users contribute?",
+      message: "How do users contribute and What are the guide lines for contributing?",
       name: "contributor",
     },
     {
