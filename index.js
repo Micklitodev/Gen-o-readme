@@ -75,9 +75,9 @@ function genReadme({
   
   ## Questions
   
-  ${github}
+  Github - ${github}
 
-  ${email}
+  Email - ${email}
 
   When contact me please be mindful of timezones, Please check my profile for my
   current time information. Also, if it pertains to a bug, Please, use a clear,
