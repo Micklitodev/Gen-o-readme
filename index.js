@@ -39,7 +39,7 @@ function genReadme({
 
   ## Link
   
-  [Click Here](${link}) to go to the live link.
+  [Click Here](${link}) to go to the repo link.
   
 
 
